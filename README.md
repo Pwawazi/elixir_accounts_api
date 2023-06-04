@@ -1,5 +1,7 @@
 # AccountApi
 
+Environment variables are sourced from the .env file. 
+
 To start your Phoenix server:
 
   * Run `mix setup` to install and setup dependencies
