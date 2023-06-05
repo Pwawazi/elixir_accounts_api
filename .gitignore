@@ -27,3 +27,4 @@ account_api-*.tar
 
 # Environment Variables
 /.env
+/.env_docker
