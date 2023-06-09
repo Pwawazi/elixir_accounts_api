@@ -34,6 +34,7 @@ defmodule AccountApiWeb.AccountJSON do
   def render("full_account.json", %{account: account}) do
     %{
       id: account.id,
+      user_id: account.user.id,
       email: account.email,
       first_name: account.user.first_name,
       last_name: account.user.last_name
