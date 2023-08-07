@@ -1,6 +1,6 @@
 defmodule AccountApiWeb.AccountJSON do
   require Logger
-  alias AccountApi.{Accounts.Account, Users, Users.User}
+  alias AccountApi.{Accounts.Account}
   @doc """
   Renders a list of accounts.
   """
